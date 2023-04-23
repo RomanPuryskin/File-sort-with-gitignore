@@ -1,0 +1,59 @@
+# Prerequisites
+*.d
+
+Makefile
+main-debug
+main
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.txt
+
+### replit ###
+# Replit config file
+.replit
+
+# Replit Nix config file
+replit.nix
+
+$ echo Makefile >> .gitignore
+  
+$ git rm --cached Makefile
+rm 'Makefile'
+  
+$ git commit -m "Start ignoring Makefile"
+*.app
+
+$ echo main >> .gitignore
+  
+$ git rm --cached main
+rm 'main'
+  
+$ git commit -m "Start ignoring main"
+*.app
