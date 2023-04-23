@@ -234,4 +234,5 @@ int main()
       cout<<"Test passed";
       break;
     }
+  return 0;
 }
